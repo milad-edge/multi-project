@@ -1,0 +1,131 @@
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .arrow {
+            cursor: pointer;
+        }
+
+
+        .location {
+            margin: 0 auto;
+    
+            img {
+                margin-right: 10px;
+            }
+
+            span {
+                margin-right: 30px;
+            }
+        }
+    }
+
+    .icon-status {
+        img {
+            max-width: 250px
+        }
+    }
+
+    .temp-status {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px 0 20px;
+        margin-left: 15px;
+        h3 {
+            font-size: 4em
+        }
+    }
+
+    .status-weather {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        h5 {
+            font-size: 1.2em
+        }
+
+        .leaf-btn {
+            display: flex;
+            background-color: rgba($color: #fff, $alpha: .5);
+            padding: 10px 30px;
+            border-radius: 50px;
+            margin: 30px 0;
+        }
+    }
+
+    .future-days {
+        width: 100%;
+        li {
+            
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 20px;
+            border-radius: 50px;
+            transition: all .2s;
+
+            &:hover {
+                background-color: rgba($color: #fff, $alpha: .5);
+            }
+
+            .status {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 50px
+                }
+            }
+
+            .temp {
+                display: flex;
+                align-items: flex-start;
+
+                h5 {
+                    font-size: 1.2em
+                }
+
+                span {
+                    margin-left: 5px;
+                    font-size: .8em;
+                }
+            }
+        }
+    }
+
+    .more-details {
+        display: flex;
+        align-items: center;
+        margin: 30px 0;
+        cursor: pointer;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 15px 20px;
+        border-radius: 50px;
+
+        &:hover {
+
+            img {
+                transform: rotate(180deg) translateX(-3px)
+            }
+        }
+
+        span {
+            color: #fff;
+            font-size: .9em;
+        }
+        img {
+            transform: rotate(180deg);
+            margin-left: 20px;
+            transition: all 0.3s;
+        }
+    }
+}

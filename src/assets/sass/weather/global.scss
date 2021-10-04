@@ -1,0 +1,44 @@
+body {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.17em;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: .83em;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: .673em;
+    font-weight: 500;
+}
+
+.mainApp {
+    max-width: 365px;
+    background: linear-gradient(180deg, #1B0A52 0%, #B29AFF 100%);
+    margin: 0 auto;
+}

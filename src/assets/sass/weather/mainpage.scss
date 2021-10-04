@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 170px;
+    
+    .logo img{
+        max-width: 300px;
+    }
+
+    .title {
+        margin: 10px 0 60px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        background: none;
+        outline: 0;
+        color: #fff;
+        border-radius: 50px;
+        padding: 10px 20px;
+        border: 1px solid #fff;
+        &::placeholder {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+
+    button {
+        background-color: #fff;
+        border-radius: 50px; 
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+}
